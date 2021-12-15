@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Globales */
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.container {
+  width: min(90%, 90rem);
+  margin: 0 auto;
+}
+
+/* utilidades */
+
+.text-center {
+  text-align: center;
+}
+
+.pedreo {
+  display: flex;
+  justify-content: center;
+}
+
+/**/
+.dark-mode {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
